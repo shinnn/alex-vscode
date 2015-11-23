@@ -51,9 +51,9 @@
   },
   "devDependencies": {
     "@shinnn/eslint-config-node": "^1.0.1",
-    "eslint": "^1.10.2",
+    "eslint": "^1.10.3",
     "istanbul": "^0.4.1",
     "tape": "^4.2.2",
-    "vscode-languageserver": "^0.10.6"
+    "vscode-languageserver": "^1.1.1"
   }
 }
