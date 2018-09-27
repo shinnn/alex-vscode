@@ -1,59 +1,65 @@
 {
-  "name": "alex-vscode",
-  "version": "1.0.0",
-  "description": "alex wrapper to easily integrate with Visual Studio Code",
-  "repository": "shinnn/alex-vscode",
-  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
-  "scripts": {
-    "pretest": "eslint --fix --config @shinnn/node index.js test.js",
-    "test": "node --strong_mode --harmony_destructuring --throw-deprecation --track-heap-objects test.js",
-    "coverage": "node --strong_mode --harmony_destructuring node_modules/.bin/istanbul cover test.js"
-  },
-  "license": "MIT",
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "alex",
-    "language",
-    "sensitive",
-    "insensitive",
-    "sensitivity",
-    "identity",
-    "gender",
-    "sex",
-    "equal",
-    "equality",
-    "race",
-    "religion",
-    "orientation",
-    "consideration",
-    "natural-language",
-    "english",
-    "wrapper",
-    "bridge",
-    "lint",
-    "linter",
-    "check",
-    "checker",
-    "validate",
-    "validation",
-    "vsc",
-    "vscode",
-    "visual-studio-code",
-    "diagnostic",
-    "diagnostics"
-  ],
-  "dependencies": {
-    "alex": "^1.6.1",
-    "is-md": "^1.0.0",
-    "vfile-messages-to-vscode-diagnostics": "^1.0.0"
-  },
-  "devDependencies": {
-    "@shinnn/eslint-config-node": "^2.0.0",
-    "eslint": "^2.2.0",
-    "istanbul": "^0.4.2",
-    "tape": "^4.4.0",
-    "vscode-languageserver": "^1.4.0"
-  }
+	"name": "alex-vscode",
+	"version": "1.0.0",
+	"description": "alex wrapper to easily integrate with Visual Studio Code",
+	"repository": "shinnn/alex-vscode",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"license": "MIT",
+	"scripts": {
+		"pretest": "eslint .",
+		"test": "nyc node test.js"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"alex",
+		"language",
+		"sensitive",
+		"insensitive",
+		"sensitivity",
+		"identity",
+		"gender",
+		"sex",
+		"equal",
+		"equality",
+		"race",
+		"religion",
+		"orientation",
+		"consideration",
+		"natural-language",
+		"english",
+		"wrapper",
+		"bridge",
+		"lint",
+		"linter",
+		"check",
+		"checker",
+		"validate",
+		"validation",
+		"vsc",
+		"vscode",
+		"visual-studio-code",
+		"diagnostic",
+		"diagnostics"
+	],
+	"dependencies": {
+		"alex": "^6.0.0",
+		"is-md": "^2.0.0",
+		"vfile-messages-to-vscode-diagnostics": "^1.1.0"
+	},
+	"devDependencies": {
+		"@shinnn/eslint-config": "^6.7.1",
+		"eslint": "^5.6.0",
+		"nyc": "^13.0.1",
+		"nyc-config-common": "^1.0.0",
+		"tape": "^4.9.1",
+		"vscode-languageserver-types": "^3.13.0"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn"
+	},
+	"nyc": {
+		"extends": "nyc-config-common"
+	}
 }
