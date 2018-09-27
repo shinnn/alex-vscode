@@ -1,6 +1,6 @@
 {
 	"name": "alex-vscode",
-	"version": "1.0.0",
+	"version": "2.0.0-0",
 	"description": "alex wrapper to easily integrate with Visual Studio Code",
 	"repository": "shinnn/alex-vscode",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
