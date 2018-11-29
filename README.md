@@ -1,7 +1,7 @@
 # alex-vscode
 
 [![npm version](https://img.shields.io/npm/v/alex-vscode.svg)](https://www.npmjs.com/package/alex-vscode)
-[![Build Status](https://travis-ci.org/shinnn/alex-vscode.svg?branch=master)](https://travis-ci.org/shinnn/alex-vscode)
+[![Build Status](https://travis-ci.com/shinnn/alex-vscode.svg?branch=master)](https://travis-ci.com/shinnn/alex-vscode)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/alex-vscode.svg)](https://coveralls.io/github/shinnn/alex-vscode)
 
 [alex](https://alexjs.com) wrapper to easily integrate with [Visual Studio Code](https://code.visualstudio.com/) language server
@@ -58,7 +58,7 @@ connection.listen();
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install alex-vscode
